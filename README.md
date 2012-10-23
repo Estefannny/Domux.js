@@ -4,11 +4,11 @@ Domux is a simple DOM manipulation library.
 
 ## Documentation
 
-Manipulates HTML in the DOM. Also just returns the inner HTML of elements in the collection if called with no arguments.
-
 html
 ----
-	
+
+Manipulates HTML in the DOM. Also just returns the inner HTML of elements in the collection if called with no arguments.
+
 ### syntax ###
 
 	d$( selector ).html( html ,location );
@@ -28,6 +28,7 @@ or you can just retrieve the inner HTML of elements in the collection with:
 
 ### arguments ###
 
+- selector `String` can be `#id` or `tagname`.
 - html `String` is a string of HTML markup or a `HTMLElement`.
 - location `String` can be one of: _inner_, _outer_, _top_, _bottom_, _remove_, _before_ or _after_.
 
