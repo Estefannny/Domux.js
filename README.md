@@ -1,6 +1,6 @@
-# Domux
+# Domux.js
 
-Domux is a simple DOM manipulation library.
+Domux.js is a simple DOM manipulation library.
 
 ## Documentation
 
