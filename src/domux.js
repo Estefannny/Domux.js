@@ -12,16 +12,16 @@ var domux = {
   'arr': [],
   'find': function(sel) {
     if (sel.indexOf('#') == 0)
-      return domux.byId(sel.substring(1,selector.length));
+      return domux.id(sel.substring(1,sel.length));
     else 
-      return domux.byTag(sel);
+      return domux.tag(sel);
   },
-  'byId': function(id) {
+  'id': function(id) {
     domux.arr = new Array();
     domux.arr.push(document.getElementById(id));
     return domux;
   },
-  'byTag': function(name) {
+  'tag': function(name) {
     domux.arr = new Array(); 
     var items = document.getElementsByTagName(name);
     for (i=0;i<items.length;i++)
